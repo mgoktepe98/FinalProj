@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Payment</title>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<h1> Payment </h1>		
+		<br> 		
+		<h2> Credit Card Details </h2>
+		<form action="getpayment.php" method="post">
+			<label for="Name"> <strong>Card number</strong></label><br><br>
+			<input placeholder = "Card number" type="text" id="cardNum" name="cardNum"><br><br>
+			
+			<label><strong> Choose card type</strong> </label><br><br>
+			<input type="radio" id="cardType" name="card" value="visa">
+			<img src = "visa.png"> </img>
+			<label for="Visa"></label>
+			
+			<input type="radio" id="cardType" name="card" value="mastercard">
+			<img src="mastercard.png"> </img>
+			<label for="Mastercard"></label>
+			
+			<input type="radio" id="cardType" name="card" value="paypal">
+			<img src="paypal.png"> </img>
+			<label for="Paypal"></label><br><br>
+			
+			<label for="Name"> <strong>Name on card</strong></label><br><br>	
+			<input placeholder = "Name on card" type="text" id="Name" name="Name"><br><br>
+			
+			<br>
+			<label for="CVV"> <strong>CVV</strong></label><br><br>
+			<input placeholder = "CVV" style="width:100 ;" type="text" id="CVV" name="CVV"><br><br>
+			
+			<label for="month"><strong> Expired month </strong></label><br><br>
+			<select style="width:150 ;" name="month" >
+				<option > (Choose month) </option>
+				<option value="01"> 01 </option>
+				<option value="02"> 02</option>
+				<option value="03"> 03 </option>
+				<option value="04"> 04 </option>
+				<option value="05"> 05 </option>
+				<option value="06"> 06 </option>
+				<option value="07"> 07 </option>
+				<option value="08"> 08 </option>
+				<option value="09"> 09 </option>
+				<option value="10"> 10 </option>
+				<option value="11"> 11 </option>
+				<option value="12"> 12 </option>				
+			</select>
+			
+			<br><br>
+			
+			<label for="year"> <strong>Expired year</strong></label><br><br>
+			<input placeholder="Expired year" style="width:150 ;" type="text" id="year" name="year"><br><br>
+			
+			<input type="submit" value="Continue">
+			
+		</form>
+	<body>
+
+</html>
