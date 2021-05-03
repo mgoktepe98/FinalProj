@@ -19,6 +19,9 @@ $username = $_SESSION["username"];
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<div id="banner">
+    Webengers Secret Travel Agency 
+</div> 
 <div class="pageContainer centerText">
     <h2>Password Protected Page</h2>
     <hr>
