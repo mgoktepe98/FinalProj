@@ -1,11 +1,10 @@
 html {
-   background: url(/sandvig/images/bg_white_parchment.jpg);
-   /*      background: url(/sandvig/images/bg_seahawk1gradient2.png);
-         background-repeat: repeat-x;*/
-
-   /* background-size: 100% 100%; */
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
    font-size: large;
+}
+
+body {
+   background-image: url(travel_bg.jpg);   
 }
 
 /* ** block elements ************ */
