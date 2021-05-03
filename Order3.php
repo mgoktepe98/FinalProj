@@ -25,7 +25,9 @@
         echo "<img src='images/".$_COOKIE['model'] . $color . ".jpg' />";
     }
     ?>
-
+    
+     <a href="Payment.html"> PAY NOW </a>
+    
     <br>
     <a href="Order1.php">Place another order</a>
 
