@@ -4,6 +4,9 @@
       <link href="style.css" rel="stylesheet" type="text/css">
    </head>
    <body>
+      <div id="banner">
+         Webengers Secret Travel Agency 
+      </div> 
       <div class="pageContainer">
          <h2 class="centerText">Select Model</h2>
          <form action="Order2.php" class="formLayout">
