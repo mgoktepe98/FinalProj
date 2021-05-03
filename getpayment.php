@@ -5,6 +5,9 @@
 	</head>
 
 	<body>
+		<div id="banner">
+         		Webengers Secret Travel Agency 
+      		</div> 
 		<h1>Your payment is successfully processed!</h1>
 
 		<p>Thank you for using our site :)</p>
