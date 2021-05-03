@@ -7,6 +7,15 @@ body {
    background-image: url(travel_bg.jpg);   
 }
 
+#banner {
+   background-image: url(banner.jpg);
+   height: 100px;
+   font-family: Verdana;
+   font-size: 80px;
+   text-align: center;
+   border: 5px solid black;
+}
+
 /* ** block elements ************ */
 .pageContainer {
    width:80%; 
