@@ -26,9 +26,9 @@
     }
     ?>
     
-     <a href="Payment.html"> PAY NOW </a>
     
-    <br>
+     <a href="Payment.html"> PAY NOW </a>
+    <br> <br>
     <a href="Order1.php">Place another order</a>
 
 </div>
