@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Get card!</title>
-		<link href="style.css" type="text/css" rel="stylesheet" />
+		<link href="style1.css" type="text/css" rel="stylesheet" />
 	</head>
 
 	<body>
