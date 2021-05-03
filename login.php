@@ -23,6 +23,9 @@ if ($_SERVER["HTTPS"] != "on") {
 </head>
 <body>
 
+<div id="banner">
+    Webengers Secret Travel Agency 
+</div> 
 <div class="pageContainer centerText">
     <h2>Login</h2>
     <form method="post" class="formLayout">
